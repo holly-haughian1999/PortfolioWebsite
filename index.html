@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
         <header>
         <img src="images/HHlogo.svg" alt="Holly Haughian" class="logo">
+
+      
+
 
           <nav>                                
            <ul class="nav list" id="nav">
@@ -21,20 +24,27 @@
           </nav>
         </header>
 
-        <section>
-            <h1 class="home title">Hey, I'm Holly</h1>
-            <p class="home paragraph">A UX/UI designer and front 
-                end developer, based in 
-                Northern Ireland</p>
 
-            <img src="images/blueheader.svg" alt="blue header" class="blueheader">
-            <img src="images/visualmark.svg" alt="visualmark" class="visualmark">
-            <img src="images/scroll.svg" alt="scroll" class="scroll">
-        </section>
+            <div class="row">
+                <div class="column">
+                     <h2 class="home title">Hey, I'm Holly</h2>
+                     <p class="home paragraph">A UX/UI designer and front 
+                     end developer, based in 
+                     Northern Ireland</p>
+                </div>
+          
+                 <div class="column">
+                    <img src="images/visualmark.svg" alt="visualmark" class="visualmark">
+                    <img src="images/scroll.svg" alt="scroll" class="scroll">
+                </div>
+            </div>
+            
+        
     </div>
     
     <div class="portfolio-container">
         <div class="container">
+            <h2>Check out my work!</h2>
             <ul>
                 <li>
                     <img src="images/app-image.svg" alt="Travel App Icon">
@@ -80,11 +90,41 @@
     </div>
 
     <div class="blue-container">
-        <div class="container">
-            
+        <div class="split left">
+            <div class="centered">
+                <h1>A bit about me</h1>
+                <p>My name’s Holly as you know. I’m a 
+                    part time farmer, full time student. 
+                    An aspiring UX Designer and Front 
+                    End Developer studying Interaction 
+                    Design at the Belfast School of Art. 
+                    I live within the Mourne Mountains 
+                    in County Down.</p>
+            </div> 
+        </div>
 
+        <div class="split right">
+            <div class="centered">
+                <img src="images/portfolioselfie.svg" alt="Picture of me">
+            </div>
+        </div>
+       
     </div>
-    </div>
+    
+    <footer>
+            <div class="footer-container">
+                <div class="container">
+                    <h2>Say Hello!</h2>
+                    <p>Drop me an email at: <a href="mailto:haughian-h.ac.uk">Haughian-h@ulster.ac.uk</a></p>
+                    <ul class="connections">
+                        <li><a href="https://hollyhaughian.tumblr.com"><img src="images/tumblr-icon.svg" alt="View My Tumblr"></a></li>
+                        <li><a href="https://twitter.com/?logout=1578267571096"><img src="images/instagram-icon.svg" alt="View My Instagram"></a></li> <!--This link brings user to twitter's homepage as I don't have an account-->
+                        <li><a href="https://github.com/holly-haughian1999"><img src="images/github-icon.svg" alt="View My Github"></a></li>
+            
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
 </body>
 
