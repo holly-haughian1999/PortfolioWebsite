@@ -1,32 +1,180 @@
 
+
+/*---------- MAIN STYLING ----------*/
+
 body, html {
     height: 100%;
+    width: 100%;
     margin: 0;
+    padding: 0;
     font-family: poppins, sans-serif;
     font-style: normal;
     font-weight: 100;
 }
 
-#nav{
-   
-    margin-top: -4.8em;
-    margin-right: 6em;
+/*---------- NAV STYLING ----------*/
+
+
+nav{
+    
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    
 }
 
-nav ul {
-    list-style-type: none;
+
+
+nav ul{
+    text-align: center;
+    letter-spacing: 1px;
     float: right;
     
 }
 
 nav ul li{
+    margin: 7px;
     float: left;
+    text-align: center;
 }
 
-nav ul li a{
-    color: #0B2F3D;
-    padding: 0 30px;
+
+
+
+.navbar-container {
+
+	text-align: center;
+    font-size: 0;
+    height: .3em;
 }
+
+.navbar-container ul {
+	
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+
+.navbar-container ul li a {
+    color: #0B2F3D;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+    transition: 0.5s;
+    font-size: 1.55em;
+    margin-top: 1.4em;
+    text-align: center;
+    
+}
+
+.link{
+    margin-right: 6em;
+}
+
+.navbar-container ul li .underline1 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li .underline2 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li .underline3 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline4 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline1 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline2 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline3 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline4 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li:hover .underline1 {
+	background-color: #69AFE1;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline2 {
+	background-color: #F5EE93;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline3 {
+	background-color: #69AFE1;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline4 {
+	background-color: #ED7372;
+	width: 100%;
+}
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline1 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline2 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline3 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline4 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container{
+    margin-right: 4em;
+}
+
+
+/*---------- HOME STYLING ----------*/
 
 .logo{
     padding-top: 2.8em;
@@ -39,20 +187,135 @@ nav ul li a{
     height: auto;
     width: auto;
     margin-top: 0em;
-    background: url('../images/blueheader.svg') no-repeat 30em 0.01em ;
+    background: url('../images/blueheader.svg') no-repeat 20em 0.01em;
     background-size: cover;
+    background-position: fixed;
+    
 }
 
-.column{
+.main.column{
     float: left;
     width: 50%;
-    padding: 10px;
-    height: 300px;
+    
+    
+}
+.side-column{
+    float: right;
+    width: 50%;
+    
 }
 
 .row{
     content: "";
     display: table;
     clear: both;
+    width: 80%;
+    
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.visualmark{
+    height: 75%;
+    width: 75%;
+   margin-bottom: 10em;
+    margin-left: 13em;
+    margin-top: -19em;
+
+}
+
+.home-title {
+    font-size: 3em;
+    font-weight: 430;
+    margin-top: 3.4em;
+    margin-left: 3.55em;
+    color: #14495f;
+}
+
+.home-paragraph{
+    margin-left: 7.2em;
+}
+
+.home-paragraph, .bluep{
+    display: inline-block;
+    font-size: 1.5em;
+    color: #14495f;
+    margin-top: -1em;
+}
+
+.bluep{
+    margin-left: 0.2em;
+    color: #71B0D3;
+}
+
+.paragraphp2{
+    font-size: 1.5em;
+    margin-top: -1em;
+    margin-left: 7.2em;
+    color: #14495f;
+}
+
+.scroll{
+    width: 3em;
+    height: 3em;
+    position: relative;
+    margin-left: 7em;
+    margin-bottom: 2em;
+    margin-top: -2em;
+}
+
+/*---------- PORTFOLIO STYLING ----------*/
+
+.portfolio-container h2{
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 4em;
+    position: relative;
+}
+
+.row2{
+    content: "";
+    display: table;
+    clear: both;
+    width: 80%;
+    padding-top:20px; 
+    padding-left:15px; 
+    padding-right:15px; 
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.main-column2, .side-column2, .side-column2-2{
+    text-align: center;
+}
+
+.branding-image{
+    width: 20em;
+    height: 20em;
+    margin-top: 3em;
+    text-align: center;
+    margin-left: 2em;
+    
+
+}
+
+.typescreen-image, .app-image{
+    width: 23em;
+    height: 23em;
+}
+
+.app-image{
+    margin-left: 8em;
+}
+
+.typescreen-image{
+    width: 21.5em;
+    height: 21.5em;
+    margin-top: 2em;
+    margin-left: 3em;
+}
