@@ -253,8 +253,8 @@ header{
 
 .paragraphp2{
     font-size: 1.5em;
-    margin-top: -1em;
-    margin-left: 7.2em;
+    margin-top: -0.9em;
+    margin-right: 20.5em;
     color: #14495f;
 }
 
@@ -314,8 +314,87 @@ header{
 }
 
 .typescreen-image{
-    width: 21.5em;
-    height: 21.5em;
-    margin-top: 2em;
-    margin-left: 3em;
+    width: 21.25em;
+    height: 21.25em;
+    margin-top: 1.8em;
+    margin-left: 3.3em;
 }
+
+h2{
+    color: #14495f;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+p{
+    margin-top: 2em;
+    color: #14495f;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.travel{
+    margin-left: 5.4em;
+    margin-top: 2.5em;
+}
+.brand{
+    margin-left: 1em;
+    margin-top: 2.6em;
+}
+.type{
+    margin-left: 2.7em;
+    margin-top: 2.5em;
+}
+
+
+/*----FOOTER-----*/
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    padding: 2em 0 4em 0;
+ }
+
+ .button { 
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:32px;
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+    }
+    .button:hover { 
+    transform: scale(1.1);
+    }
+
+ /*----FOOTER-LINKS-----*/
+ .connections{
+     position: relative;
+     margin: 0 auto;
+ }
+ .connections ul{
+     margin: 0;
+     padding: 0;
+ }
+ .connections li{
+     margin: 0 15px;
+     padding: 0;
+     list-style: none;
+     display: inline-block;
+ }
+ .connections a:link{
+     border-bottom: none;
+ }
+ .connections img{
+     opacity: 0.5;
+     border: none;
+ }
+ .connections a:hover{
+     opacity: 1.0;
+     border-bottom: none;
+     transition: all 0.3s ease-in-out;
+ }
+ #anchor{
+   text-align: center;
+   display: inline-block;
+   font-size: 1.5em;
+ }
