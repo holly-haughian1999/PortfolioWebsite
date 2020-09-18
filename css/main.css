@@ -73,6 +73,7 @@ nav ul li{
     font-size: 1.55em;
     margin-top: 1.4em;
     text-align: center;
+    clear: right;
     
 }
 
@@ -173,6 +174,18 @@ nav ul li{
     margin-right: 4em;
 }
 
+label{
+    margin: 0 4px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle{
+    display: none;
+}
+
 
 /*---------- HOME STYLING ----------*/
 
@@ -197,8 +210,17 @@ nav ul li{
 .main.column{
     float: left;
     width: 50%;
+    width: 10em;
     
     
+}
+
+.main-column{
+    width: 50em;
+}
+
+.paragraphs{
+    width: 50em;
 }
 .side-column{
     float: right;
@@ -225,6 +247,7 @@ header{
    margin-bottom: 10em;
     margin-left: 13em;
     margin-top: -19em;
+    position: relative;
 
 }
 
@@ -252,20 +275,12 @@ header{
     color: #71B0D3;
 }
 
-.paragraphp2{
-    font-size: 1.5em;
-    margin-top: -0.9em;
-    margin-right: 20.5em;
-    color: #14495f;
-}
-
 .scroll{
     width: 3em;
     height: 3em;
-    
     margin-left: 7em;
     margin-bottom: 2em;
-    margin-top: -2em;
+    margin-top: -5em;
     animation: bounce 1s infinite;
     position: absolute;
 }
@@ -284,6 +299,13 @@ header{
 }
 
 /*---------- PORTFOLIO STYLING ----------*/
+
+.portfolio-container{
+    width: auto;
+    text-align: center;
+    position: relative;
+
+}
 
 .portfolio-container h2{
     text-align: center;
@@ -305,10 +327,14 @@ header{
     justify-content: space-between;
     margin-top: 3em;
     margin-bottom: 3em;
+   
 }
+
 
 .main-column2, .side-column2, .side-column2-2{
     text-align: center;
+    position: relative;
+    
 }
 
 .branding-image{
@@ -317,19 +343,21 @@ header{
     margin-top: 3em;
     text-align: center;
     margin-left: 1.7em;
-    
+    position: relative;
 
 }
 
 .typescreen-image, .app-image{
     width: 23em;
     height: 23em;
+    position: relative;
 }
 
 .app-image{
     margin-left: 8em;
     width: 24.3em;
     height: 24.3em;
+    
 }
 
 .typescreen-image{
@@ -563,5 +591,49 @@ footer{
     width: 7em;
  }
 
+/* ----- MEDIA QUERIES -------*/
 
- 
+
+/*-------- TABLET ----------*/
+
+@media(max-width: 550px){
+
+    .nav-list{
+        font-size: 0.6em;
+    }
+
+    nav ul{
+        
+        flex-direction: column;
+        text-align: center;
+        font-size: 3em;
+    }
+    .container1{
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    .row{
+        margin-top: 6em;
+        flex-direction: column;
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar-container{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .navbar-container a{
+        display: block;
+        border-bottom: 1px solid #0B2F3D;
+        margin: 0;
+    }
+    #toggle:checked + .navbar-container{
+        display: block;
+    }
+
+}
+
