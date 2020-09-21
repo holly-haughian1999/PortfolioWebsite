@@ -210,9 +210,7 @@ label{
 .main.column{
     float: left;
     width: 50%;
-    width: 10em;
-    
-    
+    width: 10em; 
 }
 
 .main-column{
@@ -304,6 +302,7 @@ header{
     width: auto;
     text-align: center;
     position: relative;
+    width: 100%;
 
 }
 
@@ -596,44 +595,168 @@ footer{
 
 /*-------- TABLET ----------*/
 
-@media(max-width: 550px){
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
 
-    .nav-list{
-        font-size: 0.6em;
+    .scroll{
+        display: none;
     }
 
-    nav ul{
-        
-        flex-direction: column;
+    nav ul li{
+        margin: 4px;
+        float: left;
         text-align: center;
-        font-size: 3em;
     }
+
+    .link{
+        margin-right: 1em;
+    }
+
+    .navbar-container ul li a {
+  
+        display: inline-block;
+       
+       
+        font-size: 0.55em;
+        
+        text-align: center;
+        clear: right;
+        
+    }
+
+   
     .container1{
         font-size: 0.5em;
         text-align: center;
+      
+    }
+
+    .side-column{
+        margin-top: 22em;
+        margin-right: 21em;
+
+    }
+
+    .main-column{
+        margin-left: -6em;
+        margin-top: -8em;
     }
 
     .row{
         margin-top: 6em;
-        flex-direction: column;
+       
     }
-    label{
-        display: block;
-        cursor: pointer;
+   
+
+    .portfolio-container{
+        font-size: 0.6em;
     }
-    .navbar-container{
-        text-align: center;
-        width: 100%;
-        display: none;
+    .portfolio-container h2{
+        margin-top: 5em;
     }
-    .navbar-container a{
-        display: block;
-        border-bottom: 1px solid #0B2F3D;
-        margin: 0;
+    .main-column2{
+        margin-left: em;
     }
-    #toggle:checked + .navbar-container{
-        display: block;
+    .side-column2{
+        margin-top: 30em;
+        margin-left: -47em;
+    }
+    .branding-image{
+        width: 19.5em;
+        height: 19.5em;
+    }
+    .side-column2-2{
+        margin-top: 60em;
+        margin-left: -48em;
+
     }
 
+    .row3{
+        font-size: 0.5em;
+       text-align: center;
+       margin-top: -3em;
+    }
+
+    .main-column3{
+        margin-left: -4em;
+       margin-top: -0.000001em;
+    }
+    .side-column5{
+        margin-top: -0.000001em;
+    }
+
+    .pen{
+        display: none;
+    }
+    .computer{
+        display: none;
+    }
+
+    .yellow-container{
+        height: 10em;
+    }
+
+    .blue-container{
+        margin-bottom: -1.8em;
+    }
+    .row4{
+        margin-top: 5em;
+    }
+
+    .me{
+        font-size: 1em;
+        margin-top: -5em;
+    }
+    .myself{
+        font-size: 0.6em;
+        margin-top: -0.5em;
+    }
+    .main-column4{
+        margin-left: -5em;
+        
+        width: 50%;
+    }
+
+    .selfie{
+        height: 8em;
+        width: 8em;
+        margin-top: -5em;
+        margin-left: -5em;
+      
+    }
+
+    .side-column6{
+        width: 50%;
+        margin-left: -3em;
+    }
+
+    #footer{
+        font-size: 0.5em;
+    }
+
+    .button1, .button2{
+        width: 2em;
+        height: 2em;
+    }
+    .button3{
+        width: 3em;
+        height: 3em;
+    }
+    .button2{
+        margin-bottom: 0.6em;
+    }
+    .button1{
+        margin-top: 0.5em;
+    }
+
+
+
+    
+
 }
+
+
 
