@@ -1,0 +1,77 @@
+
+
+.contacttext{
+    margin-top: -3em;
+}
+
+.contact-title {
+    font-size: 2.8em;
+    font-weight: 400;
+    color: #14495f;
+    margin-left: 0.3em;
+    margin-bottom: -0.0em;
+   
+}
+
+
+
+.contact-paragraph, .contact-paragraph1,  .bluep{
+    display: inline;
+    font-size: 1.5em;
+    color: #14495f;
+    
+}
+
+.bluep{
+  
+    color: #71B0D3;
+}
+
+.cv{
+    height: 18em;
+    width: 15em;
+    margin-left: 9em;
+    margin-top: -5em;
+    margin-top: 1em;
+}
+
+.buttonnav {
+    background-color: #b7dfeb;
+    border: none;
+    color: #0B2F3D;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    height: 4em;
+    padding-bottom: 2.7em;
+  }
+  .cvbutton {
+      border-radius: 12px;
+      height: 5em;
+      text-align: center;
+     
+      
+    }
+
+    .blogbutton {
+        border-radius: 12px;
+       width: 7em;
+        height: 3em;
+        text-align: center;
+        
+      }
+
+    .grid2{
+        content: "";
+        clear: both;
+        width: 40%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1em;
+        grid-auto-rows: minmax(100px, auto);
+        padding: 7em 2em 0 10em;
+        margin-top: -1.5em;
+        margin-left: -3em;
+       
+    }

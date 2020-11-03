@@ -1,0 +1,9 @@
+.container1 {
+    height: auto;
+    width: auto;
+    margin-top: 0em;
+    background: url('../images/blueheader.svg') no-repeat -7em 0.01em;
+    background-size: cover;
+    background-position: fixed;
+    min-height: calc(80vh - 40px);
+}

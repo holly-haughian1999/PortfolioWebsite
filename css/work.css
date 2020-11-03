@@ -1,0 +1,113 @@
+
+
+.containerwork {
+    height: auto;
+    width: auto;
+    margin-top: 0em;
+    background: url('../images/blueheader.svg') no-repeat -7em 0.01em;
+    background-size: cover;
+    background-position: fixed;
+    min-height: calc(80vh - 40px);
+}
+
+.contentwork{
+    margin-top: -20em;
+    margin-bottom: 5em;
+}
+
+ .headersection{
+     text-align: center;
+     color: #14495f;
+ }
+
+
+ .title1{
+    font-size: 2em;
+    font-weight: 400;
+    color: #14495f;
+}
+
+.title2{
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #14495f;
+}
+
+/*----WORKSECTIONS-----*/
+
+.work1grid div{
+    padding: 1em;
+   
+}
+.work1grid{
+    content: "";
+    clear: both;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 7em 2em 0 10em;
+   
+}
+
+.travelapp{
+    width: 100%;
+    height: 95%;
+}
+
+.apptext{
+    margin-top: 4em;
+}
+
+.app-title {
+    font-size: 1.8em;
+    font-weight: 430;
+    color: #14495f;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+.app-paragraph{
+    display: inline;
+    font-size: 1.2em;
+    color: #14495f; 
+}
+.tools{
+    display: inline;
+    font-size: 1em;
+    font-weight: 500;
+    color: #14495f; 
+}
+
+
+
+.buttonnav {
+    background-color: #b7dfeb;
+    border: none;
+    color: #0B2F3D;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    margin: 17px 2px;
+    height: 4em;
+    padding-bottom: 2.7em;
+  }
+  .viewbutton {
+      border-radius: 12px;
+      margin-left: 0.8em;
+      height: 3em;
+      text-align: center;
+      
+    }
+
+
+    @media only screen and (max-width: 800px) {
+        body {
+        }
+            
+        .work1grid {
+        display: block;}
+        }
