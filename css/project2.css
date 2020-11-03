@@ -47,8 +47,14 @@
    
 }
 
+.sketches{
+    text-align: center;
+    color: #0B2F3D;;
+}
+
 .fillcontent{
     width: max-content;
+    margin-left: -2em;
 }
 
 .brandbutton{
@@ -69,6 +75,10 @@
 
 }
 
+.grid2 p{
+    color: #0B2F3D;
+}
+
 
 /*----IMAGES---*/
 
@@ -84,7 +94,11 @@
  
    
 }
-
+.monogram3{
+    width: 100%;
+    height: 80%;
+    margin-top: -4em;
+}
 .refinedmonogram{
     width: 90%;
     margin-left: -4em;

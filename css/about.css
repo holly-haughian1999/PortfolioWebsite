@@ -123,6 +123,14 @@
       text-align: center;
 
 }
+.cvbutton{
+    border-radius: 12px;
+      margin-left: 0.8em;
+      height: 4em;
+      text-align: center;
+      font-weight: 400;
+
+}
 
 /*---------- MAIN STYLING ----------*/
 
@@ -153,7 +161,23 @@ body, html {
     height: 4em;
     
   }
-  .button4 {border-radius: 12px;}
+  .buttonnav2 {
+    background-color: #b7dfeb;
+    border: none;
+    color: #0B2F3D;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    margin: 17px 2px;
+    height: 1.4em;
+    
+  }
+  .button4 {border-radius: 12px;
+    margin-top: -2em;
+}
 
 nav{
     

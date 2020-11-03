@@ -46,9 +46,25 @@
     height: 4em;
     padding-bottom: 2.7em;
   }
+
+  .buttonnav2 {
+    background-color: #b7dfeb;
+    border: none;
+    color: #0B2F3D;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    margin: 17px 2px;
+    height: 1.4em;
+    
+  }
+  
   .cvbutton {
       border-radius: 12px;
-      height: 5em;
+      height: 3em;
       text-align: center;
      
       
@@ -59,6 +75,15 @@
        width: 7em;
         height: 3em;
         text-align: center;
+        
+      }
+
+      .linkedinbutton {
+        border-radius: 12px;
+       width: 7em;
+        height: 3em;
+        text-align: center;
+        margin-left: 2em;
         
       }
 
